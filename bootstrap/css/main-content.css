@@ -1,0 +1,33 @@
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+
+body {
+
+    background-image: url('../../images/chicago.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.page-message {
+    background-color: #FFF;
+}
+
+.page-message h3 {color: #000;}
+.page-message p {font-style: italic;}
+
+div.polaroid{
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.4), 0 6px 20px 0 rgba(0,0,0, 0.2);
+margin-top: 25px;
+}
+
+h5{
+text-align: center;
+}
+
