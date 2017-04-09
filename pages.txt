@@ -4,3 +4,5 @@ blog list
 
 main page
 blog edit
+
+1)why do we write and contact will come in about us
