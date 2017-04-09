@@ -1,0 +1,46 @@
+.page-message {
+   font-family: 'Satisfy', cursive;    
+   background-color: whitesmoke;
+   padding: 20pt;
+   text-align: center;   
+}
+.page-message h1{
+    font-size: 40pt;
+    color: black;
+	
+}
+.page-message h2{
+    color: black;
+}
+
+.page-blogs {
+   font-family: 'Satisfy', cursive;    
+   background-color: #666;
+   padding: 20pt;
+   text-align: center;
+   color: white;  
+}
+.page-blogs h1{
+    font-size: 40pt;
+    color: black;
+	
+}
+.page-blogs h2{
+    color: black;
+}
+
+
+.page-blogs h5,a{
+	font-family: 'PT Sans', sans-serif;
+    color: black;
+}
+
+.page-single-blog
+{
+color: white;
+padding: 20pt;
+}
+
+.page-single-blog div :hover{
+background-color: rgba(255, 255, 255, 0.5);
+}
