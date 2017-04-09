@@ -8,6 +8,14 @@
   <script src="Bootstrap/js/jquary.min.js"></script>
   <script src="Bootstrap/js/bootstrap.min.js"></script> 
   <script src="ckeditor/ckeditor.js"></script> 
+  <script type="text/javascript">
+  	function sub()
+  	{
+  		 var data = CKEDITOR.instances.editor1.getData();
+  		 document.getElementById("view").innerHTML = data;
+
+  	}
+  </script>
 
 </head>
 <style type="text/css">
@@ -16,13 +24,28 @@
 <body>
 	<div class="container-fluid">
 		<div>
-			<textarea rows="10" cols="100" name="edito"> </textarea>
+			<textarea rows="10" cols="100" name="edito"> cool </textarea>
 			<script type="text/javascript">
 				CKEDITOR.replace('edito');
 			</script>
 		</div>
 		<div>
-			<a class="btn btn-default" href="#" role="button">Link</a>
+			<button class="btn btn-default try" onclick="sub()" type="submit">Submit</button>
+			
+
+		</div>
+		<div>
+			<p id="view">
+
+			</p>
+			<script type="text/javascript">
+
+				document.getElementById("view").innerHTML = "Hello World!";
+				
+			</script>
+			<div>
+				
+			</div>
 		</div>
 	</div>
 </body>
